@@ -2,7 +2,7 @@ package cisc.mapreduce;
 
 
 
-// written by Hannah Wilkinson, 10026110
+// written by Hannah Wilkinson
 
 ///resources include: https://www.cloudera.com/documentation/other/tutorial/CDH5/topics/ht_example_4_sentiment_analysis.html
 ///https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html
