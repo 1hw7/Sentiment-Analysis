@@ -6,10 +6,9 @@ package cisc.mapreduce;
 
 ///resources include: https://www.cloudera.com/documentation/other/tutorial/CDH5/topics/ht_example_4_sentiment_analysis.html
 ///https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html
-// Input format: exactly as specified by Professor Martin. 
-//cd /caslab_linux/caslab/hadoop-2.7.3/bin
 
-//Input: ./hadoop jar your_jar_file_path /cisc432/negative.txt  /cisc432/positive.txt /cisc432/data.txt output_path
+
+//Input: ./hadoop FilePathForNegativeWords  FilePathForPositiveWords SampleData  output_path
 
 import java.io.BufferedReader;
 import java.io.File;
