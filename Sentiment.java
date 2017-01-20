@@ -26,9 +26,6 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class Sentiment {
-	enum Gauge {
-		POSITIVE, NEGATIVE
-	}
 
 	public static Set<String> goodWords = new HashSet<String>();
 	public static Set<String> badWords = new HashSet<String>();
